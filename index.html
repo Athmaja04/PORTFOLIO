@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athmaja K A - Portfolio</title>
+    <meta name="description" content="Portfolio of Athmaja K A, Computer Science Student and Aspiring Software Engineer.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Icons (Phosphor Icons or FontAwesome could be used, let's use Phosphor for modern look) -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background decorative elements -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">AKA<span>.</span></a>
+            <nav class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link btn-small">Contact</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <i class="ph ph-list"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home / Hero Section -->
+        <section id="home" class="hero section">
+            <div class="container hero-container grid-2-col">
+                <div class="hero-content reveal">
+                    <span class="greeting">Hello, I'm</span>
+                    <h1 class="hero-title">Athmaja <span>K A</span></h1>
+                    <h2 class="hero-subtitle">Computer Science Student | Aspiring Software Engineer</h2>
+                    <p class="hero-tagline">Passionate about building impactful tech solutions.</p>
+                    <div class="hero-cta">
+                        <a href="mailto:athmajaajith@gmail.com" class="btn btn-primary">Contact Me</a>
+                        <a href="#resume" class="btn btn-secondary">View Resume</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <div class="container reveal">
+                <h2 class="section-title">About Me</h2>
+                <div class="card glass-card">
+                    <p>I am a highly motivated <strong>Computer Science undergraduate</strong> with a strong foundation in modern technologies and software development.</p>
+                    <p>With experience spanning <strong>AI-integrated systems, web development, and structural problem solving</strong>, I am deeply devoted to leveraging technology to build real-world, impactful applications that can make a difference.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section">
+            <div class="container reveal">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category glass-card">
+                        <h3><i class="ph ph-code"></i> Languages</h3>
+                        <div class="tags">
+                            <span class="tag">C</span>
+                            <span class="tag">Java</span>
+                            <span class="tag">Python</span>
+                        </div>
+                    </div>
+                    <div class="skill-category glass-card">
+                        <h3><i class="ph ph-brain"></i> Core</h3>
+                        <div class="tags">
+                            <span class="tag">Problem Solving</span>
+                            <span class="tag">AI Tools</span>
+                        </div>
+                    </div>
+                    <div class="skill-category glass-card">
+                        <h3><i class="ph ph-users"></i> Soft Skills</h3>
+                        <div class="tags">
+                            <span class="tag">Teamwork</span>
+                            <span class="tag">Communication</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience section">
+            <div class="container reveal">
+                <h2 class="section-title">Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item glass-card">
+                        <div class="timeline-dot"></div>
+                        <h3 class="timeline-title">Intern <span class="company">@ Edurupt Technologies Pvt. Ltd.</span></h3>
+                        <span class="timeline-date">Sep 2025 – Dec 2025</span>
+                        <ul class="styled-list">
+                            <li>Worked on AI-integrated curriculum design utilizing Generative AI technologies.</li>
+                            <li>Performed rigorous functional and usability testing on AI-based applications to ensure quality and reliability.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section">
+            <div class="container reveal">
+                <h2 class="section-title">Projects</h2>
+                <div class="grid-2-col">
+                    <div class="project-card glass-card">
+                        <div class="project-header">
+                            <i class="ph ph-briefcase project-icon"></i>
+                            <div class="project-links">
+                                <a href="#" aria-label="GitHub Link"><i class="ph ph-github-logo"></i></a>
+                                <a href="#" aria-label="External Link"><i class="ph ph-arrow-square-out"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">HireCraft</h3>
+                        <p class="project-desc">A comprehensive placement preparation platform featuring predictive analytics, student profiling, and insightful performance tracking.</p>
+                        <div class="tags">
+                            <span class="tag tag-small">Full-Stack</span>
+                            <span class="tag tag-small">Analytics</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card glass-card featured">
+                        <div class="project-badge">
+                            <i class="ph ph-trophy"></i> Hackathon Winner
+                        </div>
+                        <div class="project-header">
+                            <i class="ph ph-heartbeat project-icon"></i>
+                            <div class="project-links">
+                                <a href="#" aria-label="GitHub Link"><i class="ph ph-github-logo"></i></a>
+                                <a href="#" aria-label="External Link"><i class="ph ph-arrow-square-out"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Helpmate</h3>
+                        <p class="project-desc">A medical emergency platform connecting users with nearby assistance and critical healthcare services in real-time.</p>
+                        <div class="tags">
+                            <span class="tag tag-small">Hackathon</span>
+                            <span class="tag tag-small">Healthcare</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="achievements section">
+            <div class="container reveal">
+                <h2 class="section-title">Achievements</h2>
+                <div class="achievement-card glass-card flex-center">
+                    <i class="ph-fill ph-medal trophy-icon"></i>
+                    <div>
+                        <h3>Winner</h3>
+                        <p>TinkHerHack Hackathon</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="container reveal text-center">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="contact-desc">Currently open for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                <a href="mailto:athmajaajith@gmail.com" class="btn btn-primary btn-large">Say Hello</a>
+                <div class="social-links">
+                    <a href="mailto:athmajaajith@gmail.com" aria-label="Email" title="Email"><i class="ph ph-envelope-simple-open"></i></a>
+                    <a href="https://www.linkedin.com/in/athmaja-k-a-71637321" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn"><i class="ph ph-linkedin-logo"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container text-center">
+            <p>&copy; 2026 Athmaja K A. Built with passion.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
